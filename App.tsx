@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 const App = () => {
-  const [message, setMessage] = useState('Hello, World!');
+  const [message, setMessage] = useState('Welcome to react native!');
 
   return (
     <SafeAreaView style={styles.container}>
